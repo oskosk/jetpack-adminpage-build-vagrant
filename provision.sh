@@ -11,7 +11,7 @@ nvm install 5.11.1
 nvm install 6
 nvm alias default 5.11.1
 nvm use 5.11.1
-sudo apt-get update
 sudo apt-get -y install git
 git clone https://github.com/Automattic/jetpack
 cd jetpack
+npm set progress=false
